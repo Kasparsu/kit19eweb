@@ -1,0 +1,16 @@
+body {
+    margin:0;
+}
+#item1 {
+    background-color: salmon;
+}
+li.red {
+    background-color: firebrick;
+}
+.class2 {
+    list-style-type: circle;
+}
+
+ol li {
+    background-color: gold;
+}
