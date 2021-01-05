@@ -1,64 +1,36 @@
-let num = false;
-let date = new Date();
+let person = {
+    name: 'Kaspar',
+    age: 28,
+};
 
-if(date.getDay() == 6){
-    console.log("is party time");
-} else if(date.getHours() >= 16 ){
-    console.log("is time to go home")
-} else {
-    console.log("work work work");
+function hello(name='Nimetu'){
+    console.log("hello " + name);
 }
 
-switch(date.getDay()){
-    case 0:
-        console.log("Pühapäev");
-        break;
-    case 1:
-        console.log("Esmaspv");
-        break;     
-    case 2:
-        console.log("Teisipv");
-        break;        
-    case 3:
-        console.log("kolampv");
-        break;        
-    case 4:
-        console.log("nejalpv");
-        break;       
-    case 5:
-        console.log("reede");
-        break;              
-    default: 
-        console.log("pidupäev");
-        break;
+hello();
+hello('Kaspar');
+hello('Martin');
+hello('Vello');
+
+function sum(a=0, b=0) {
+    if(a>0){
+        return a + b;
+    }
+    return a - b;
 }
 
-for(let i=10;i>0;i--){
-    if(i%2 == 0){
-        console.log(i);
+console.log(sum(4,6));
+let num = sum(7,1);
+
+if(sum(4,7) > 2) {
+    console.log("suurem");
+}
+
+function recursion(n){
+    console.log(n);
+    console.log(sum(n,n));
+    if(n>0){
+        recursion(n-1);
     }
 }
-
-// while(date.getSeconds() != 1){
-//     console.log(date.getSeconds());
-//     date = new Date();
-// }
-
-while(false) {
-    console.log("will not show");
-}
-
-do {
-    console.log("will show");
-} while(false);
-
-let array = ['apple', 'cherry', 'pear'];
-
-array.forEach(function(fruit){
-    console.log(fruit);
-});
-
-for(i = 0; i<array.length; i++){
-    console.log(array[i]);
-}
-
+recursion(10);
