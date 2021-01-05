@@ -1,0 +1,23 @@
+{
+  "name": "kit19eweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasparsu/kit19eweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kasparsu/kit19eweb/issues"
+  },
+  "homepage": "https://github.com/Kasparsu/kit19eweb#readme",
+  "dependencies": {
+    "boxen": "^5.0.0"
+  }
+}
