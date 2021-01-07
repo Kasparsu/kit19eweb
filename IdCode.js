@@ -35,7 +35,7 @@ module.exports = class IdCode {
 
     }
 
-    isValid(){ // https://et.wikipedia.org/wiki/Isikukood
+    isValid(){ // https://et.wikipedia.org/wiki/Isikukood, https://regexr.com/
 
     }
 } 
