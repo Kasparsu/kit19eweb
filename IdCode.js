@@ -19,4 +19,23 @@ module.exports = class IdCode {
         let num = parseInt(this.idCode.substr(1,2));
         return this.getCentury() + num;
     }
+
+    getMonth(){
+
+    }
+
+    getMonthName(){
+        //let date = new Date();
+    }
+
+    getDay(){  
+
+    }
+    getWeekDay(){ //monday, tuesday ....
+
+    }
+
+    isValid(){ // https://et.wikipedia.org/wiki/Isikukood
+
+    }
 } 
